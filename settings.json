@@ -1,0 +1,53 @@
+{
+    "breadcrumbs.enabled": false,
+
+    "chat.commandCenter.enabled": false,
+    
+    "editor.cursorBlinking": "smooth",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8, 
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.horizontal": "auto",
+    "editor.minimap.enabled": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": true,
+    
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.patterns": {
+        "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-*, bun.lockb, nest*, package-lock*",
+        "tailwind.config.*": "tailwind.config*, postcss.config*",
+        ".env.local": ".env*",
+        ".env": ".env*"
+    },
+    "files.autoSave": "afterDelay",
+
+    "git.autofetch": true,
+    
+    "symbols.hidesExplorerArrows": false,
+    "search.seedWithNearestWord": true,
+    
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.smoothScrolling": true,
+
+    "workbench.activityBar.location": "hidden",
+    "workbench.iconTheme": "symbols",
+    "workbench.tree.indent": 18,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "workbench.statusBar.visible": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.reduceMotion": "off",
+    "workbench.colorTheme": "Andromeda",
+
+    "window.menuBarVisibility": "compact",
+    "remote.SSH.remotePlatform": {
+        "*.gitpod.io": "linux"
+    },
+}
